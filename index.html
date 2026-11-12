@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organiza Escolar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Organiza Escolar</h1>
+        <p>Cadastro de materiais escolares</p>
+
+        <form id="formulario">
+            <label for="nome">Nome do material:</label>
+            <input type="text" id="nome"
+                   placeholder="Digite o nome">
+
+            <label for="categoria">Categoria:</label>
+            <input type="text" id="categoria"
+                   placeholder="Digite a categoria">
+
+            <button type="submit">Adicionar</button>
+        </form>
+
+        <h2>Lista de materiais</h2>
+
+        <ul id="lista"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
